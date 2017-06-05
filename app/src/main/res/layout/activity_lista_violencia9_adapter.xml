@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/fon"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="45 a 49"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="40sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="269dp"
+        app:srcCompat="@drawable/novena" />
+
+    <TextView
+        android:id="@+id/casoshombre"
+        android:layout_width="263dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/porhombre"
+        android:layout_width="267dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/casosmujer"
+        android:layout_width="277dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/pormujer"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="24sp" />
+
+
+</LinearLayout>
